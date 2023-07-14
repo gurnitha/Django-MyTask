@@ -150,6 +150,37 @@ Belajar membuat aplikasi dafter tugas menggunakan Django versi 4.2
         new file:   mytask/wsgi.py
 
 
+#### 2.4 Menjalankan server untuk kali pertama
+
+        Tujuan:
+
+        1. Memastikan semua berjalan baik sampai tahap ini
+
+        Langkah-langkah:
+
+        1. Menjalankan server
+        2. Membuka browser pada url: http://127.0.0.1:8000/
+
+
+        Kode perintah:
+
+        (mytask) hp@ING:MyTask ~ python manage.py runserver << --- 1. Menjalankan server
+        Watching for file changes with StatReloader
+        Performing system checks...
+
+        System check identified no issues (0 silenced).
+
+        You have 18 unapplied migration(s). Your project may not work properly until you apply the migrations for app(s): admin, auth, contenttypes, sessions.
+        Run 'python manage.py migrate' to apply them.
+        July 14, 2023 - 17:00:05
+        Django version 4.2, using settings 'mytask.settings'
+        Starting development server at http://127.0.0.1:8000/ << ---  2. Membuka browser pada url: http://127.0.0.1:8000/
+        Quit the server with CTRL-BREAK.
+
+        File baru/modifikasi (lama):
+
+        modified:   README.md
+
 
 
 
