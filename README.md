@@ -61,6 +61,38 @@ Belajar membuat aplikasi dafter tugas menggunakan Django versi 4.2
         modified:   .gitignore
         modified:   README.md
 
+
+#### 2.2 Menginstal Django versi 4.2
+
+        Tujuan:
+
+        1. Menginstal Django versi 4.2
+
+        Langkah-langkah:
+
+        1. Mengaktifkan lingkungan virtual (venv3942)
+        2. Menginstal Django versi 4.2
+        2. Meng-upgrade pip
+
+        Kode perintah:
+
+        hp@ING:MyTask ~ venv3942\Scripts\activate << -- mengaktifkan lingkungan virtual
+
+        (mytask) hp@ING:MyTask ~ pip install django==4.2 << -- menginstal django
+        Collecting django==4.2
+        ....
+        WARNING: You are using pip version 21.1.1; however, version 23.1.2 is available.
+        You should consider upgrading via the 'c:\users\hp\desktop\django-mytask\venv3942\scripts\python.exe -m pip install --upgrade pip' command.
+
+        (mytask) hp@ING:MyTask ~ python.exe -m pip install --upgrade pip
+        ...
+        Successfully installed pip-23.1.2
+
+
+        File baru/modifikasi:
+
+        modified:   README.md
+
         
 
 
