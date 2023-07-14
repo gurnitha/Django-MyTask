@@ -2,8 +2,13 @@
 Belajar membuat aplikasi dafter tugas menggunakan Django versi 4.2
 
 
-## 0. SETUP
+## Bagian 0: SETUP
         
+        Tujuan:
+
+        1. Membuat remote repositori
+        2. Meng-klone repositori sebagai root proyek
+
         Lankah-lankah:
 
         1. Membuat akun pada Github
@@ -18,6 +23,16 @@ Belajar membuat aplikasi dafter tugas menggunakan Django versi 4.2
 
         modified:   README.md
         
+
+## Bagian 2: Membuat Proyek Django
+        
+        Tujuan:
+
+        1. Membuat Proyek Django
+        2. Menjalankan server untuk kali pertama dan melihat 
+           default proyek django di browser
+
+
 
 
 
