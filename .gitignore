@@ -1,3 +1,12 @@
+# New -------------------
+_docs
+venv3942
+# End New ----------------
+
+
+
+
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
