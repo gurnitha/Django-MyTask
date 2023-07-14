@@ -93,11 +93,61 @@ Belajar membuat aplikasi dafter tugas menggunakan Django versi 4.2
 
         modified:   README.md
 
-        
+
+#### 2.3 Membuat Proyek Django dengan nama mytask
+
+        Tujuan:
+
+        1. Membuat proyek django dengan nama 'mytask'
+
+        Langkah-langkah:
+
+        1. Memastikan lingkungan virtual diaktifkan
+        2. Memeriksa versi django
+        3. Membuat proyek django dengan nama 'mytask'
+        4. Memeriks hasil perintah
+        5. Memodifikasi struktur file
 
 
+        Kode perintah:
+
+        (mytask) hp@ING:MyTask ~ << --- 1. Memastikan lingkungan virtual diaktifkan
+        (mytask) hp@ING:MyTask ~ pip list << --- 2. Memeriksa versi django
+        Package           Version
+        ----------------- -------
+        asgiref           3.7.2
+        Django            4.2
+        pip               23.1.2
+        setuptools        56.0.0
+        sqlparse          0.4.4
+        typing_extensions 4.7.1
+        tzdata            2023.3
+
+        (mytask) hp@ING:MyTask ~ django-admin startproject mytask << --- 3. Membuat proyek django dengan nama 'mytask'
+
+        (mytask) hp@ING:MyTask ~ ls << --- 4. Memeriks hasil perintah
+        README.md  _docs  mytask  venv3942
 
 
+        File baru/modifikasi (lama):
+
+        modified:   README.md
+        new file:   mytask/manage.py
+        new file:   mytask/mytask/__init__.py
+        new file:   mytask/mytask/asgi.py
+        new file:   mytask/mytask/settings.py
+        new file:   mytask/mytask/urls.py
+        new file:   mytask/mytask/wsgi.py
+
+        File baru/modifikasi (baru):
+
+        modified:   README.md
+        new file:   manage.py
+        new file:   mytask/__init__.py
+        new file:   mytask/asgi.py
+        new file:   mytask/settings.py
+        new file:   mytask/urls.py
+        new file:   mytask/wsgi.py
 
 
 
